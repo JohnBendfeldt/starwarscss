@@ -1,0 +1,141 @@
+body {
+    background-color: #000;
+}
+
+#stars {
+	background: none;
+	background-image: url('../images/stars.png');
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index:-1;
+	-webkit-animation: stars 15s linear infinite;
+	-moz-animation: stars 15s linear infinite;
+	-ms-animation: stars 15s linear infinite;
+	animation: stars 15s linear infinite;
+}
+/* stars change position over 10 seconds. -JB */
+@keyframes stars {
+    0% {background-position: 0px 0px;}
+    25% {background-position: -500px 500px;}
+    50% {background-position: -1000px 1000px;}
+    75% {background-position: 1000px 500px;}
+    100% {background-position: 0px 0px;}
+}
+@-moz-keyframes stars {
+    0% {background-position: 0px 0px;}
+    25% {background-position: -500px 500px;}
+    50% {background-position: -1000px 1000px;}
+    75% {background-position: 1000px 500px;}
+    100% {background-position: 0px 0px;}
+}
+@-webkit-keyframes stars {
+    0% {background-position: 0px 0px;}
+    25% {background-position: -500px 500px;}
+    50% {background-position: -1000px 1000px;}
+    75% {background-position: 1000px 500px;}
+    100% {background-position: 0px 0px;}
+}
+@-ms-keyframes stars {
+    0% {background-position: 0px 0px;}
+    25% {background-position: -500px 500px;}
+    50% {background-position: -1000px 1000px;}
+    75% {background-position: 1000px 500px;}
+    100% {background-position: 0px 0px;}
+}
+
+#death_star {
+	background: none;
+	background-image: url('../images/death_star.png');
+    background-repeat: repeat-y;
+	height: 100%;
+	right: 0;
+	position: absolute;
+	bottom: 0;
+	width: 50%;
+	z-index:-1;
+	-webkit-animation: deathstar 15s linear infinite;
+	-moz-animation: deathstar 15s linear infinite;
+	-ms-animation: deathstar 15s linear infinite;
+	animation: deathstar 15s linear infinite;
+}
+/* deathstar change position over 10 seconds. -JB */
+@keyframes deathstar {
+    0% {background-position: 0px 0px;}
+    25% {background-position: -500px 500px;}
+    50% {background-position: -1000px 1000px;}
+    75% {background-position: 1000px 500px;}
+    100% {background-position: 0px 0px;}
+}
+@-moz-keyframes deathstar {
+    0% {background-position: 0px 0px;}
+    25% {background-position: -500px 500px;}
+    50% {background-position: -1000px 1000px;}
+    75% {background-position: 1000px 500px;}
+    100% {background-position: 0px 0px;}
+}
+@-webkit-keyframes deathstar {
+    0% {background-position: 0px 0px;}
+    25% {background-position: -500px 500px;}
+    50% {background-position: -1000px 1000px;}
+    75% {background-position: 1000px 500px;}
+    100% {background-position: 0px 0px;}
+}
+@-ms-keyframes deathstar {
+    0% {background-position: 0px 0px;}
+    25% {background-position: -500px 500px;}
+    50% {background-position: -1000px 1000px;}
+    75% {background-position: 1000px 500px;}
+    100% {background-position: 0px 0px;}
+}
+
+#fighters {
+	background: none;
+	background-image: url('../images/tie_fighters.png'), url('../images/x_wing_1.png'), url('../images/x_wing_2.png'), url('../images/x_wing_3.png');
+    background-repeat: no-repeat;
+	height: 100%;
+	left: -500px;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	z-index: 5;
+	-webkit-animation: fighters 15s linear infinite;
+	-moz-animation: fighters 15s linear infinite;
+	-ms-animation: fighters 15s linear infinite;
+	animation: fighters 15s linear infinite;
+}
+/* fighters change position over 5 seconds. -JB */
+@keyframes fighters {
+    0% {background-position: 0px 0px;}
+    25% {background-position: 1000px -1000px, 1250px -1100px, 1150px -1000px, 1500px -1250px;}
+    50% {background-position: 1000px 1000px, 1250px 1100px, 1150px 1000px, 1500px 1250px;
+    transform: rotateY(180deg)}
+    75% {background-position: 500px -500px, 600px -250px, 550px -400px, 500px -700px;}
+    100% {background-position: 0px 0px;}
+}
+@-moz-keyframes fighters {
+    0% {background-position: 0px 0px;}
+    25% {background-position: 1000px -1000px, 1250px -1100px, 1150px -1000px, 1500px -1250px;}
+    50% {background-position: 1000px 1000px, 1250px 1100px, 1150px 1000px, 1500px 1250px;
+    transform: rotateY(180deg)}
+    75% {background-position: 500px -500px, 600px -250px, 550px -400px, 500px -700px;}
+    100% {background-position: 0px 0px;}
+}
+@-webkit-keyframes fighters {
+    0% {background-position: 0px 0px;}
+    25% {background-position: 1000px -1000px, 1250px -1100px, 1150px -1000px, 1500px -1250px;}
+    50% {background-position: 1000px 1000px, 1250px 1100px, 1150px 1000px, 1500px 1250px;
+    transform: rotateY(180deg)}
+    75% {background-position: 500px -500px, 600px -250px, 550px -400px, 500px -700px;}
+    100% {background-position: 0px 0px;}
+}
+@-ms-keyframes fighters {
+    0% {background-position: 0px 0px;}
+    25% {background-position: 1000px -1000px, 1250px -1100px, 1150px -1000px, 1500px -1250px;}
+    50% {background-position: 1000px 1000px, 1250px 1100px, 1150px 1000px, 1500px 1250px;
+    transform: rotateY(180deg)}
+    75% {background-position: 500px -500px, 600px -250px, 550px -400px, 500px -700px;}
+    100% {background-position: 0px 0px;}
+}
