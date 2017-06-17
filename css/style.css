@@ -54,7 +54,7 @@ body {
 	right: 0;
 	position: absolute;
 	bottom: 0;
-	width: 50%;
+	width: 100%;
 	z-index:-1;
 	-webkit-animation: deathstar 15s linear infinite;
 	-moz-animation: deathstar 15s linear infinite;
@@ -64,30 +64,30 @@ body {
 /* deathstar change position over 15 seconds. -JB */
 @keyframes deathstar {
     0% {background-position: 0px 0px;}
-    25% {background-position: -50vh 50vh;}
-    50% {background-position: -150vh 100vh;}
-    75% {background-position: 100vh 50vh;}
+    25% {background-position: -10vh 25vh;}
+    50% {background-position: -50vh 100vh;}
+    77% {background-position: 500vh -25vh;}
     100% {background-position: 0px 0px;}
 }
 @-moz-keyframes deathstar {
     0% {background-position: 0px 0px;}
-    25% {background-position: -50vh 50vh;}
-    50% {background-position: -100vh 100vh;}
-    75% {background-position: 100vh 50vh;}
+    25% {background-position: -10vh 25vh;}
+    50% {background-position: -50vh 100vh;}
+    77% {background-position: 500vh -25vh;}
     100% {background-position: 0px 0px;}
 }
 @-webkit-keyframes deathstar {
     0% {background-position: 0px 0px;}
-    25% {background-position: -50vh 50vh;}
-    50% {background-position: -100vh 100vh;}
-    75% {background-position: 100vh 50vh;}
+    25% {background-position: -10vh 25vh;}
+    50% {background-position: -50vh 100vh;}
+    77% {background-position: 500vh -25vh;}
     100% {background-position: 0px 0px;}
 }
 @-ms-keyframes deathstar {
     0% {background-position: 0px 0px;}
-    25% {background-position: -50vh 50vh;}
-    50% {background-position: -100vh 100vh;}
-    75% {background-position: 100vh 50vh;}
+    25% {background-position: -10vh 25vh;}
+    50% {background-position: -50vh 100vh;}
+    77% {background-position: 500vh -25vh;}
     100% {background-position: 0px 0px;}
 }
 
