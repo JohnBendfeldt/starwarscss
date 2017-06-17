@@ -64,30 +64,30 @@ body {
 /* deathstar change position over 15 seconds. -JB */
 @keyframes deathstar {
     0% {background-position: 0px 0px;}
-    25% {background-position: -10vh 25vh;}
-    50% {background-position: -50vh 100vh;}
-    77% {background-position: 500vh -25vh;}
+    25% {background-position: -10vw 25vh;}
+    50% {background-position: -20vw 100vh;}
+    77% {background-position: 200vw -25vh;}
     100% {background-position: 0px 0px;}
 }
 @-moz-keyframes deathstar {
     0% {background-position: 0px 0px;}
-    25% {background-position: -10vh 25vh;}
-    50% {background-position: -50vh 100vh;}
-    77% {background-position: 500vh -25vh;}
+    25% {background-position: -10vw 25vh;}
+    50% {background-position: -20vw 100vh;}
+    77% {background-position: 200vw -25vh;}
     100% {background-position: 0px 0px;}
 }
 @-webkit-keyframes deathstar {
     0% {background-position: 0px 0px;}
-    25% {background-position: -10vh 25vh;}
-    50% {background-position: -50vh 100vh;}
-    77% {background-position: 500vh -25vh;}
+    25% {background-position: -10vw 25vh;}
+    50% {background-position: -20vw 100vh;}
+    77% {background-position: 200vw -25vh;}
     100% {background-position: 0px 0px;}
 }
 @-ms-keyframes deathstar {
     0% {background-position: 0px 0px;}
-    25% {background-position: -10vh 25vh;}
-    50% {background-position: -50vh 100vh;}
-    77% {background-position: 500vh -25vh;}
+    25% {background-position: -10vw 25vh;}
+    50% {background-position: -20vw 100vh;}
+    77% {background-position: 200vw -25vh;}
     100% {background-position: 0px 0px;}
 }
 
@@ -109,34 +109,34 @@ body {
 /* fighters change position over 15 seconds. -JB */
 @keyframes fighters {
     0% {background-position: 0px 0px;}
-    25% {background-position: 100vh -100vh;
+    25% {background-position: 100vw -100vh;
     transform: rotateY(180deg);}
-    50% {background-position: 250vh 150vh;}
-    75% {background-position: -100vh 50vh;}
+    50% {background-position: 250vw 150vh;}
+    75% {background-position: -100vw 50vh;}
     100% {background-position: 0px 0px;}
 }
 @-moz-keyframes fighters {
     0% {background-position: 0px 0px;}
-    25% {background-position: 100vh -100vh;
+    25% {background-position: 100vw -100vh;
     transform: rotateY(180deg);}
-    50% {background-position: 250vh 150vh;}
-    75% {background-position: -100vh 50vh;}
+    50% {background-position: 250vw 150vh;}
+    75% {background-position: -100vw 50vh;}
     100% {background-position: 0px 0px;}
 }
 @-webkit-keyframes fighters {
     0% {background-position: 0px 0px;}
-    25% {background-position: 100vh -100vh;
+    25% {background-position: 100vw -100vh;
     transform: rotateY(180deg);}
-    50% {background-position: 250vh 150vh;}
-    75% {background-position: -100vh 50vh;}
+    50% {background-position: 250vw 150vh;}
+    75% {background-position: -100vw 50vh;}
     100% {background-position: 0px 0px;}
 }
 @-ms-keyframes fighters {
     0% {background-position: 0px 0px;}
-    25% {background-position: 100vh -100vh;
+    25% {background-position: 100vw -100vh;
     transform: rotateY(180deg);}
-    50% {background-position: 250vh 150vh;}
-    75% {background-position: -100vh 50vh;}
+    50% {background-position: 250vw 150vh;}
+    75% {background-position: -100vw 50vh;}
     100% {background-position: 0px 0px;}
 }
 
@@ -159,32 +159,32 @@ body {
 @keyframes xwings {
     0% {background-position: 0px 0px;}
     15% {transform: rotateY(360deg);}
-    25% {background-position: 50vh -50vh, 54vh -51vh, 100vh -100vh;}
-    50% {background-position: 100vh 50vh, 110vh 50vh, 100vh 52vh;}
-    75% {background-position: 60vh -25vh, 55vh -40vh, 50vh -70vh;}
+    25% {background-position: 50vw -50vh, 54vw -51vh, 60vw -60vh;}
+    50% {background-position: 60vw 50vh, 70vw 50vh, 65vw 52vh;}
+    75% {background-position: 60vw -25vh, 55vw -40vh, 50vw -70vh;}
     100% {background-position: 0px 0px;}
 }
 @-moz-keyframes xwings {
     0% {background-position: 0px 0px;}
     15% {transform: rotateY(360deg);}
-    25% {background-position: 50vh -50vh, 54vh -51vh, 100vh -100vh;}
-    50% {background-position: 100vh 50vh, 110vh 50vh, 100vh 52vh;}
-    75% {background-position: 60vh -25vh, 55vh -40vh, 50vh -70vh;}
+    25% {background-position: 50vw -50vh, 54vw -51vh, 100vw -100vh;}
+    50% {background-position: 100vw 50vh, 110vw 50vh, 100vw 52vh;}
+    75% {background-position: 60vw -25vh, 55vw -40vh, 50vw -70vh;}
     100% {background-position: 0px 0px;}
 }
 @-webkit-keyframes xwings {
     0% {background-position: 0px 0px;}
     15% {transform: rotateY(360deg);}
-    25% {background-position: 50vh -50vh, 54vh -51vh, 100vh -100vh;}
-    50% {background-position: 100vh 50vh, 110vh 50vh, 100vh 52vh;}
-    75% {background-position: 60vh -25vh, 55vh -40vh, 50vh -70vh;}
+    25% {background-position: 50vw -50vh, 54vw -51vh, 100vw -100vh;}
+    50% {background-position: 100vw 50vh, 110vw 50vh, 100vw 52vh;}
+    75% {background-position: 60vw -25vh, 55vw -40vh, 50vw -70vh;}
     100% {background-position: 0px 0px;}
 }
 @-ms-keyframes xwings {
     0% {background-position: 0px 0px;}
     15% {transform: rotateY(360deg);}
-    25% {background-position: 50vh -50vh, 54vh -51vh, 100vh -100vh;}
-    50% {background-position: 100vh 50vh, 110vh 50vh, 100vh 52vh;}
-    75% {background-position: 60vh -25vh, 55vh -40vh, 50vh -70vh;}
+    25% {background-position: 50vw -50vh, 54vw -51vh, 100vw -100vh;}
+    50% {background-position: 100vw 50vh, 110vw 50vh, 100vw 52vh;}
+    75% {background-position: 60vw -25vh, 55vw -40vh, 50vw -70vh;}
     100% {background-position: 0px 0px;}
 }
