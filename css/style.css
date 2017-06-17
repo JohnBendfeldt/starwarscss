@@ -49,11 +49,11 @@ body {
 #death_star {
 	background: none;
 	background-image: url('../images/death_star.png');
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
 	height: 100%;
 	right: 0;
-	position: fixed;
-	bottom: 0;
+	position: absolute;
+	top: 0;
 	width: 100%;
 	z-index:-1;
 	-webkit-animation: deathstar 15s linear infinite;
@@ -63,32 +63,30 @@ body {
 }
 /* deathstar change position over 15 seconds. -JB */
 @keyframes deathstar {
-    0% {background-position: 0px 0px;}
-    25% {background-position: -10vw 25vh;}
-    50% {background-position: -20vw 100vh;}
-    77% {background-position: 200vw -25vh;}
-    100% {background-position: 0px 0px;}
+     0% {background-position: 100vw 25vh;}
+    25% {background-position: -10vw 100vh;}
+    50% {background-size: 0px 0px;}
+    100% {background-size: 0px 0px;}
 }
 @-moz-keyframes deathstar {
-    0% {background-position: 0px 0px;}
-    25% {background-position: -10vw 25vh;}
-    50% {background-position: -20vw 100vh;}
-    77% {background-position: 200vw -25vh;}
-    100% {background-position: 0px 0px;}
+     0% {background-position: 100vw 25vh;}
+    25% {background-position: -10vw 100vh;}
+    50% {background-size: 0px 0px;}
+    100% {background-size: 0px 0px;}
 }
+
 @-webkit-keyframes deathstar {
-    0% {background-position: 0px 0px;}
-    25% {background-position: -10vw 25vh;}
-    50% {background-position: -20vw 100vh;}
-    77% {background-position: 200vw -25vh;}
-    100% {background-position: 0px 0px;}
+     0% {background-position: 100vw 25vh;}
+    25% {background-position: -10vw 100vh;}
+    50% {background-size: 0px 0px;}
+    100% {background-size: 0px 0px;}
 }
+
 @-ms-keyframes deathstar {
-    0% {background-position: 0px 0px;}
-    25% {background-position: -10vw 25vh;}
-    50% {background-position: -20vw 100vh;}
-    77% {background-position: 200vw -25vh;}
-    100% {background-position: 0px 0px;}
+     0% {background-position: 100vw 25vh;}
+    25% {background-position: -10vw 100vh;}
+    50% {background-size: 0px 0px;}
+    100% {background-size: 0px 0px;}
 }
 
 #fighters {
