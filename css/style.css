@@ -52,7 +52,7 @@ body {
     background-repeat: repeat-y;
 	height: 100%;
 	right: 0;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	width: 100%;
 	z-index:-1;
@@ -95,11 +95,11 @@ body {
 	background: none;
 	background-image: url('../images/tie_fighters.png');
     background-repeat: no-repeat;
-	height: 2000px;
+	height: 150%;
 	left: 0px;
 	position: fixed;
 	top: 0px;
-	width: 2000px;
+	width: 150%;
 	z-index: 5;
 	-webkit-animation: fighters 15s linear infinite;
 	-moz-animation: fighters 15s linear infinite;
@@ -144,11 +144,11 @@ body {
 	background: none;
 	background-image: url('../images/x_wing_1.png'), url('../images/x_wing_2.png'), url('../images/x_wing_3.png');
     background-repeat: no-repeat;
-	height: 2000px;
+	height: 150%;
 	left: 0px;
 	position: fixed;
 	top: 0px;
-	width: 2000px;
+	width: 150%;
 	z-index: 5;
 	-webkit-animation: xwings 15s linear infinite;
 	-moz-animation: xwings 15s linear infinite;
