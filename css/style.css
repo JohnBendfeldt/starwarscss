@@ -46,53 +46,11 @@ body {
     100% {background-position: 0px 0px;}
 }
 
-#death_star {
-	background: none;
-	background-image: url('../images/death_star.png');
-    background-repeat: no-repeat;
-	height: 100%;
-	right: 0;
-	position: absolute;
-	top: 0;
-	width: 100%;
-	z-index:-1;
-	-webkit-animation: deathstar 15s linear infinite;
-	-moz-animation: deathstar 15s linear infinite;
-	-ms-animation: deathstar 15s linear infinite;
-	animation: deathstar 15s linear infinite;
-}
-/* deathstar change position over 15 seconds. -JB */
-@keyframes deathstar {
-     0% {background-position: 100vw 25vh;}
-    25% {background-position: -10vw 100vh;}
-    50% {background-size: 0px 0px;}
-    100% {background-size: 0px 0px;}
-}
-@-moz-keyframes deathstar {
-     0% {background-position: 100vw 25vh;}
-    25% {background-position: -10vw 100vh;}
-    50% {background-size: 0px 0px;}
-    100% {background-size: 0px 0px;}
-}
-
-@-webkit-keyframes deathstar {
-     0% {background-position: 100vw 25vh;}
-    25% {background-position: -10vw 100vh;}
-    50% {background-size: 0px 0px;}
-    100% {background-size: 0px 0px;}
-}
-
-@-ms-keyframes deathstar {
-     0% {background-position: 100vw 25vh;}
-    25% {background-position: -10vw 100vh;}
-    50% {background-size: 0px 0px;}
-    100% {background-size: 0px 0px;}
-}
-
 #fighters {
 	background: none;
 	background-image: url('../images/tie_fighters.png');
     background-repeat: no-repeat;
+    background-position: center;
 	height: 150%;
 	left: 0px;
 	position: fixed;
@@ -142,6 +100,7 @@ body {
 	background: none;
 	background-image: url('../images/x_wing_1.png'), url('../images/x_wing_2.png'), url('../images/x_wing_3.png');
     background-repeat: no-repeat;
+    background-position: center;
 	height: 150%;
 	left: 0px;
 	position: fixed;
