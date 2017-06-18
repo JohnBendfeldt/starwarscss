@@ -148,9 +148,9 @@ body {
 
 @media screen and (max-width: 640px) {
     #xwings {
-        background-size: 100%;
+        background-size: 75%;
     }
     #fighters {
-        background-size: 100%;
+        background-size: 75%;
     }
 }
