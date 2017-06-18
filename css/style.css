@@ -145,3 +145,12 @@ body {
     75% {background-position: 60vw -25vh, 55vw -40vh, 50vw -70vh;}
     100% {background-position: 0px 0px;}
 }
+
+@media screen and (max-width: 640px) {
+    #xwings {
+        background-size: 100%;
+    }
+    #fighters {
+        background-size: 100%;
+    }
+}
